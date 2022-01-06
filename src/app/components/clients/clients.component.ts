@@ -16,11 +16,11 @@ export class ClientsComponent implements OnInit {
     this.data =[
       {
         id: 1,
-        image: '/assets/img/client1.png',
+        image: './assets/img/client1.png',
       },
       {
         id: 2,
-        image: '/assets/img/client2.png',
+        image: './assets/img/client2.png',
       },
       {
         id: 3,
