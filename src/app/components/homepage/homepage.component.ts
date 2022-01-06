@@ -77,33 +77,6 @@ export class HomepageComponent implements OnInit {
       },
     ]
 
-    this.profile =[
-      {
-        id: 1,
-        image: './assets/img/awais.JPG',
-        name: 'm. awais',
-        text: 'Full Stack Developer',
-      },
-      {
-        id: 2,
-        image: './assets/img/idrees.JPG',
-        name: 'm. idrees',
-        text: 'UI / UX Developer',
-      },
-      {
-        id: 3,
-        image: './assets/img/ilyas.JPG',
-        name: 'ilyas ahmed',
-        text: 'Fronted Developer',
-      },
-      {
-        id: 4,
-        image: './assets/img/anis.JPG',
-        name: 'm. anees',
-        text: 'Backend Developer',
-      }
-    ]
-
     this.review =[
       {
         id: 1,
