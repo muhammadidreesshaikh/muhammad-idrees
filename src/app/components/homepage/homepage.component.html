@@ -1,0 +1,335 @@
+<div class="banner">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12 col-md-6 col-lg-7">
+        <div class="texts">
+          <h1>Hi, I'm <br> Muhammad Idrees</h1>
+          <h6>I'm a Frontend Developer | UI/UX Developer</h6>
+
+          <div class="icon">
+            <img src="../../../assets/img/icon1.png">
+            <img src="../../../assets/img/icon2.png">
+            <img src="../../../assets/img/icon7.png">
+            <img src="../../../assets/img/icon3.png">
+            <img src="../../../assets/img/icon4.png">
+            <img src="../../../assets/img/icon5.png">
+            <img src="../../../assets/img/icon6.png">
+            <img src="../../../assets/img/icon8.png">
+          </div>
+
+          <div class="c-btn">
+            <a class="press pink mr-3">Get Started</a>
+            <a class="press green">View Resume</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-5">
+        <div class="image">
+          <img src="../../../assets/img/gif3.gif">
+        </div>
+      </div>
+
+    </div>
+    </div>
+</div>
+
+<section>
+  <div class="about">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12">
+          <div class="home-heading">
+            <h3>About</h3>
+            <div class="seprator"></div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="inner">
+            <div class="row">
+              <div class="col-12 col-md-4 col-lg-5">
+                <div class="left">
+                  <img src="../../../assets/img/idrees.JPG">
+                </div>
+              </div>
+      
+              <div class="col-12 col-md-8 col-lg-7">
+                <div class="right">
+                  <h4>About Us</h4>
+                  <p>Since 2015 I've been living, breathing web development and creating web and mobile applications with cool tech stack. </p>
+                  <h6>I have 5+ years of experience in software industry, which can sums up as a "Frontend Developer" on the following Tech Stack:</h6>
+                  <p>Angular | React | Javascript | Typescript | NodeJS | Ruby on Rails</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="services">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12">
+          <div class="home-heading">
+            <h3>Services</h3>
+            <div class="seprator"></div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="inner">
+            <div class="row">
+
+              <div class="col-6 col-md-4 col-lg-2" *ngFor="let item of data">
+                <div class="card">
+                  <div class="image">
+                    <img src={{item.image}}>
+                  </div>
+  
+                  <h4>{{item.name}}</h4>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="projects">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12">
+          <div class="home-heading">
+            <h3>Projects</h3>
+            <div class="seprator"></div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="inner">
+            <div class="row">
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="container1">
+                  <img src="../../../assets/img/portfolio2.jpeg" class="image" style="width:100%">
+
+                  <div class="middle">
+                    <a href="https://www.unation.com/" class="name">Unation</a>
+                  </div>  
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="container1">
+                  <img src="../../../assets/img/portfolio2.jpeg" class="image" style="width:100%">
+
+                  <div class="middle">
+                    <a href="https://www.zkteco.com.pk/product_category/70.html/" class="name">Zkteco</a>
+                  </div>  
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="container1">
+                  <img src="../../../assets/img/portfolio2.jpeg" class="image" style="width:100%">
+
+                  <div class="middle">
+                    <a href="https://www.mimik.app/" class="name">Mimik</a>
+                  </div>  
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="container1">
+                  <img src="../../../assets/img/portfolio2.jpeg" class="image" style="width:100%">
+
+                  <div class="middle">
+                    <a href="https://www.gamelist.club/" class="name">Gamelist</a>
+                  </div>  
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="c-btn mt-5">
+                  <a class="press pink" routerLink="/projects">See More</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3"  *ngFor="let item of icons">
+          <div class="bar-inner">
+            <div class="row">
+              <div class="col-3">
+                <i class={{item.icon}}></i>
+              </div>
+
+              <div class="col-9">
+                <h6>{{item.number}}</h6>
+                <p>{{item.name}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="contact-detail">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-6">
+          <h3>Let’s start your project with us.</h3>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-6">
+          <div class="c-btn">
+            <a class="press pink" routerLink="/contact">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="testimonies">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12">
+          <div class="home-heading">
+            <h3>Testimonials</h3>
+            <div class="seprator"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonies-inner">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-4" *ngFor="let item of review">
+            <div class="plain-card">
+              <p class="testimonies-text">{{item.text}}</p>
+              <div class="inner">
+                <div class="row">
+                  <div class="col-3">
+                    <img src={{item.image}}>
+                  </div>
+
+                  <div class="col-9">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <h6>{{item.name}}</h6>
+                    <p class="name">{{item.job}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <div class="col-12">
+          <div class="home-heading">
+            <h3>Contact Us</h3>
+            <div class="seprator"></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-10">
+          <form class="mt-5">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <input type="name" class="form-control" placeholder="First Name">
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <input type="name" class="form-control" placeholder="Last Name">
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email">
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Company">
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Subject">
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <input type="number" class="form-control" placeholder="Phone Number">
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="form-group">
+                  <textarea type="text" class="form-control" placeholder="Message" rows="5"></textarea>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="c-btn mt-3">
+                  <a class="press pink">Send Message</a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
