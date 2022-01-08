@@ -307,6 +307,7 @@
 
 .testimonies{
   padding: 50px 0;
+  background-color: #f7f7f7;
   @include respond(tablet) {
     padding: 10% 0;
   }
@@ -361,8 +362,7 @@
 }
 
 .contact{
-  background-color: #f5f5f5;
-  padding: 5% 0;
+  padding: 50px 0;
   @include respond(tablet) {
     padding: 10% 0;
   }

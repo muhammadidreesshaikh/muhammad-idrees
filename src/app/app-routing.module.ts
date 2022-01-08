@@ -27,18 +27,6 @@ const routes: Routes = [
     loadChildren: () => import('./components/services/services.module').then(m => m.ServicesModule)
   },
   {
-    path: 'support-policy',
-    loadChildren: () => import('./components/support-policy/support-policy.module').then(m => m.SupportPolicyModule)
-  },
-  {
-    path: 'terms-conditions',
-    loadChildren: () => import('./components/terms-conditions/terms-conditions.module').then(m => m.TermsConditionsModule)
-  },
-  {
-    path: 'faqs',
-    loadChildren: () => import('./components/faqs/faqs.module').then(m => m.FaqsModule)
-  },
-  {
     path: 'clients',
     loadChildren: () => import('./components/clients/clients.module').then(m => m.ClientsModule)
   }
